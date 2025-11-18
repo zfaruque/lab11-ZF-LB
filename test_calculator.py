@@ -1,5 +1,9 @@
 import unittest
 from calculator import *
+# https://github.com/zfaruque/lab11-ZF-LB/blob/main/calculator.py
+# partner 1: Zibran Faruque
+# partner 2: Lorenzo Baino
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
