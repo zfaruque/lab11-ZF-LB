@@ -1,6 +1,6 @@
 # https://github.com/zfaruque/lab11-ZF-LB/blob/main/calculator.py
-# partner 1: Zibran Faruque
-# partner 2: Lorenzo Baino
+# Partner 1: Zibran Faruque
+# Partner 2: Lorenzo Baino
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -8,13 +8,23 @@ calculator.py
 One function per operation, in order.
 """
 import math
-
-# First example
 def add(a, b):
     return a + b
-def subtract(a, b):
+def sub(a, b):
     return a - b
-def multiply(a, b): 
+def mul(a, b):
     return a * b
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    else:
+        return b / a
+def log(a, b):
+    if a == 0:
+        raise ValueError
+    else:
+        math.log(b, a)
+def exp(a, b):
+    return a ** b
 
 
