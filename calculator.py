@@ -10,7 +10,11 @@ One function per operation, in order.
 import math
 
 # First example
-def add(a, b): 
-    pass
+def add(a, b):
+    return a + b
+def subtract(a, b):
+    return a - b
+def multiply(a, b): 
+    return a * b
 
 
