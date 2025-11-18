@@ -27,7 +27,11 @@ def div(a, b):
     else:
         return b / a
 def logarithm(a, b):
-    if a == 0:
+    if a <= 0:
+        raise ValueError
+    if b <= 0:
+        raise ValueError
+    if a==1:
         raise ValueError
     else:
         math.log(b, a)
